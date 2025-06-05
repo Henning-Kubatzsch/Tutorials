@@ -1,4 +1,4 @@
-# 🧠 ML & GPT Tutorial Portfolio
+# ML & GPT Tutorial Portfolio
 
 Welcome to my personal repository for deep learning and NLP tutorials.  
 This repo documents my journey of understanding and implementing core concepts behind large language models – from scratch, using PyTorch and Python.
@@ -17,7 +17,7 @@ This collection includes full walkthroughs, annotated notebooks, and experiments
 | 6 | **Multi-Head Attention**     | Parallel heads, concatenation, projection                     |
 | 7 | **Let's Build GPT**          | Full transformer block, layer norm, causal masking, training  |
 
-## 💡 Why I built this
+## Why I built this
 
 I wanted to:
 - **Understand LLMs from the ground up** – not just use them via APIs
@@ -30,23 +30,23 @@ This repo is also part of my **portfolio** to showcase technical skills and lear
 ## 🛠 How to Use This Repo
 
 Each subfolder contains:
-- 📓 A clean, runnable notebook (Colab-ready)
-- 📝 My notes and inline explanations
-- 🔬 Experiments and visualizations (loss, gradients, distributions)
+- A clean, runnable notebook (Colab-ready)
+- My notes and inline explanations
+- Experiments and visualizations (loss, gradients, distributions)
 
 You can:
 - Use it to revisit concepts like backpropagation or attention
 - Fork and extend it into your own transformer implementations
 - Get inspired for educational or NLP projects
 
-## 🚧 What’s next
+## What’s next
 
 I am currently working on:
-- 🧪 Fine-tuning projects on domain-specific data
-- 🧑‍🏫 LLM-based learning assistants (EdTech prototypes)
-- 📈 Tools to visualize attention, saturation, and gradient flow
+- Fine-tuning projects on domain-specific data
+- LLM-based learning assistants (EdTech prototypes)
+- Tools to visualize attention, saturation, and gradient flow
 
-## 📬 Contact
+## Contact
 
 Feel free to reach out – I’m open to collaboration and looking for opportunities in:
 - NLP / AI in education
