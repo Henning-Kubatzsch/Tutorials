@@ -53,7 +53,7 @@ Feel free to reach out – I’m open to collaboration and looking for opportuni
 - ML engineering
 - Applied research
 
-📧 henning.kubatzsch@...  
+📧 henningkb@outlook.com
 🌐 [GitHub](https://github.com/Henning-Kubatzsch)  
 🌍 [LinkedIn](https://www.linkedin.com/in/henning-kubatzsch-632353324/)
 
