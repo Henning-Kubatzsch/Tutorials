@@ -1,30 +1,62 @@
-# From Zero to Hero – Reimplementation Projects
+# 🧠 ML & GPT Tutorial Portfolio
 
-This repository contains my personal reimplementations of Andrej Karpathy's excellent **"Neural Networks: Zero to Hero"** tutorial series.
+Welcome to my personal repository for deep learning and NLP tutorials.  
+This repo documents my journey of understanding and implementing core concepts behind large language models – from scratch, using PyTorch and Python.
 
-The goal of these projects is to deepen my understanding of core concepts in machine learning, including automatic differentiation, neural network training, and transformer-based language models.
+## 📚 Tutorials Covered
 
-## Included Projects
+This collection includes full walkthroughs, annotated notebooks, and experiments based on tutorials by Andrej Karpathy and others. All code is written and commented by me to deepen understanding.
 
-- `micrograd`: a minimal autograd engine
-- `makemore`: a character-level language model
-- `nanoGPT` (optional): small GPT reimplementation
+| # | Tutorial                     | Topics Covered                                                 |
+|---|------------------------------|----------------------------------------------------------------|
+| 1 | **Micrograd**                | Autograd from scratch, scalar backprop                        |
+| 2 | **Makemore**                 | Char-level LMs, MLPs, softmax, initialization, training        |
+| 3 | **Makemore Advanced**        | BatchNorm, weight scaling, gradient flow                      |
+| 4 | **Bigram GPT**               | First transformer architecture, attention from scratch         |
+| 5 | **Self-Attention Head**      | Keys, queries, values, causality                              |
+| 6 | **Multi-Head Attention**     | Parallel heads, concatenation, projection                     |
+| 7 | **Let's Build GPT**          | Full transformer block, layer norm, causal masking, training  |
 
-## Motivation
+## 💡 Why I built this
 
-All code was written from scratch by me, following the tutorial videos, and includes:
+I wanted to:
+- **Understand LLMs from the ground up** – not just use them via APIs
+- **Train and fine-tune models** later on for real-world tasks (especially EdTech)
+- Build a strong base for working in ML/NLP-focused teams
 
-- My own comments and explanations
-- Additional experiments, tweaks, and debugging
-- Insights and clarifications that helped me understand the inner workings
+Each notebook is written for **learning, experimentation, and later reference**.  
+This repo is also part of my **portfolio** to showcase technical skills and learning depth.
 
-These projects are **not meant to showcase original algorithms**, but to demonstrate my commitment to mastering foundational ML/NLP concepts through hands-on coding.
+## 🛠 How to Use This Repo
 
-## Attribution
+Each subfolder contains:
+- 📓 A clean, runnable notebook (Colab-ready)
+- 📝 My notes and inline explanations
+- 🔬 Experiments and visualizations (loss, gradients, distributions)
 
-The original tutorials and reference code were created by [Andrej Karpathy](https://github.com/karpathy).  
-Original license: MIT.
+You can:
+- Use it to revisit concepts like backpropagation or attention
+- Fork and extend it into your own transformer implementations
+- Get inspired for educational or NLP projects
 
-## License
+## 🚧 What’s next
 
-This repository is shared under the MIT License.
+I am currently working on:
+- 🧪 Fine-tuning projects on domain-specific data
+- 🧑‍🏫 LLM-based learning assistants (EdTech prototypes)
+- 📈 Tools to visualize attention, saturation, and gradient flow
+
+## 📬 Contact
+
+Feel free to reach out – I’m open to collaboration and looking for opportunities in:
+- NLP / AI in education
+- ML engineering
+- Applied research
+
+📧 henning.kubatzsch@...  
+🌐 [GitHub](https://github.com/Henning-Kubatzsch)  
+🌍 [LinkedIn](https://www.linkedin.com/in/henning-kubatzsch-632353324/)
+
+---
+
+Thanks for visiting!
