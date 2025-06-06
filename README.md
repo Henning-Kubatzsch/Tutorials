@@ -32,7 +32,7 @@ Construct a simple bigram character-level model using both counting and neural m
 
 ---
 
-## 🧠 3. [Makemore-02 – MLP Language Model](./makemore02_colab.ipynb)
+## 🧠 3. [Makemore-02 – MLP Language Model](./Makemore/02_MakemoreShort.ipynb)
 
 Build a deeper neural language model following Bengio et al. (2003).
 
@@ -47,7 +47,7 @@ Build a deeper neural language model following Bengio et al. (2003).
 
 ---
 
-## ⚙️ 4. [Makemore-03 – Deep MLPs & BatchNorm](./makemore03_colab.ipynb)
+## ⚙️ 4. [Makemore-03 – Deep MLPs & BatchNorm](./Makemore/03_MakemoreShort.ipynb)
 
 Train deeper networks reliably with better initialization and normalization.
 
@@ -60,7 +60,7 @@ Train deeper networks reliably with better initialization and normalization.
 
 ---
 
-## 🧱 5. [Makemore-04 – Leaky Abstractions in Deep Learning](./makemore04_colab.ipynb)
+## 🧱 5. [Makemore-04 – Leaky Abstractions in Deep Learning](./Makemore/04_MakemoreShort.ipynb)
 
 A philosophical and practical reminder: abstractions like `.backward()` can leak.
 
@@ -71,7 +71,7 @@ A philosophical and practical reminder: abstractions like `.backward()` can leak
 
 ---
 
-## 🌊 6. [Makemore-05 – WaveNet-Inspired Architecture](./makemore05_colab.ipynb)
+## 🌊 6. [Makemore-05 – WaveNet-Inspired Architecture](./Makemore/05_MakemoreShort.ipynb)
 
 Build a deeper model with a WaveNet-style, hierarchical architecture.
 
@@ -84,7 +84,7 @@ Build a deeper model with a WaveNet-style, hierarchical architecture.
 
 ---
 
-## 🧠 7. [GPT – A Minimal Transformer from Scratch](./gpt_colab.ipynb)
+## 🧠 7. [GPT – A Minimal Transformer from Scratch](./Built_GPT/GPT_FromScratch_Short.ipynb)
 
 Train a Transformer (nanoGPT-style) on Shakespeare from scratch.
 
