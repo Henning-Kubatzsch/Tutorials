@@ -4,7 +4,7 @@ Welcome to this curated Colab series inspired by Andrej Karpathy’s **"Zero to 
 
 ---
 
-## 🔢 1. [Micrograd – Autodiff from Scratch](./micrograd_colab.ipynb)
+## 🔢 1. [Micrograd – Autodiff from Scratch](./Micrograd/01_micrograd.ipynb)
 
 A ground-up implementation of backpropagation using a custom `Value` class.
 
