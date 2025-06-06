@@ -1,57 +1,135 @@
-# ML & GPT Tutorial Portfolio
+# From Zero to GPT: A Hands-On Deep Learning Journey
 
-Welcome to my personal repository for deep learning and NLP tutorials.  
-This repo documents my journey of understanding and implementing core concepts behind large language models – from scratch, using PyTorch and Python.
+Welcome to this curated Colab series inspired by Andrej Karpathy’s **"Zero to Hero"** tutorials. These notebooks walk you step-by-step from the fundamentals of backpropagation to building your own GPT-like Transformer, with a practical and minimalist approach to understanding deep learning through code.
 
-## 📚 Tutorials Covered
+---
 
-This collection includes full walkthroughs, annotated notebooks, and experiments based on tutorials by Andrej Karpathy and others. All code is written and commented by me to deepen understanding.
+## 🔢 1. [Micrograd – Autodiff from Scratch](./micrograd_colab.ipynb)
 
-| # | Tutorial                     | Topics Covered                                                 |
-|---|------------------------------|----------------------------------------------------------------|
-| 1 | **Micrograd**                | Autograd from scratch, scalar backprop                        |
-| 2 | **Makemore**                 | Char-level LMs, MLPs, softmax, initialization, training        |
-| 3 | **Makemore Advanced**        | BatchNorm, weight scaling, gradient flow                      |
-| 4 | **Bigram GPT**               | First transformer architecture, attention from scratch         |
-| 5 | **Self-Attention Head**      | Keys, queries, values, causality                              |
-| 6 | **Multi-Head Attention**     | Parallel heads, concatenation, projection                     |
-| 7 | **Let's Build GPT**          | Full transformer block, layer norm, causal masking, training  |
+A ground-up implementation of backpropagation using a custom `Value` class.
 
-## Why I built this
+**What you'll learn:**
+- Derivatives from scratch (single & multi-input)
+- Manual backpropagation on expressions and neurons
+- Building a computation graph
+- Implementing a backward pass
+- Comparing with PyTorch’s autograd
+- Creating a tiny MLP neural net from first principles
 
-I wanted to:
-- **Understand LLMs from the ground up** – not just use them via APIs
-- **Train and fine-tune models** later on for real-world tasks (especially EdTech)
-- Build a strong base for working in ML/NLP-focused teams
+---
 
-Each notebook is written for **learning, experimentation, and later reference**.  
-This repo is also part of my **portfolio** to showcase technical skills and learning depth.
+## 🔤 2. [Makemore-01 – Bigram Language Model](./makemore01_colab.ipynb)
 
-## 🛠 How to Use This Repo
+Construct a simple bigram character-level model using both counting and neural methods.
 
-Each subfolder contains:
-- A clean, runnable notebook (Colab-ready)
-- My notes and inline explanations
-- Experiments and visualizations (loss, gradients, distributions)
+**Highlights:**
+- Count-based bigram matrix (Python & torch.Tensor)
+- Sampling and probability visualization
+- Negative log likelihood loss
+- Vectorization and efficiency via tensor broadcasting
+- One-hot encoding and a minimal neural net
+- Manual training loop with PyTorch
 
-You can:
-- Use it to revisit concepts like backpropagation or attention
-- Fork and extend it into your own transformer implementations
-- Get inspired for educational or NLP projects
+---
 
-## What’s next
+## 🧠 3. [Makemore-02 – MLP Language Model](./makemore02_colab.ipynb)
 
-I am currently working on:
-- Fine-tuning projects on domain-specific data
-- LLM-based learning assistants (EdTech prototypes)
-- Tools to visualize attention, saturation, and gradient flow
+Build a deeper neural language model following Bengio et al. (2003).
+
+**Includes:**
+- Embedding lookups
+- Hidden layers and output logits
+- `F.cross_entropy` loss
+- Training on full dataset with minibatches
+- Learning rate tuning
+- Visualization of learned embeddings
+- Sampling generated text
+
+---
+
+## ⚙️ 4. [Makemore-03 – Deep MLPs & BatchNorm](./makemore03_colab.ipynb)
+
+Train deeper networks reliably with better initialization and normalization.
+
+**You’ll explore:**
+- Diagnosing training issues (e.g. vanishing gradients)
+- Tanh saturation and how to fix it
+- Kaiming initialization
+- Batch Normalization: theory and practice
+- Visualizing forward/backward pass statistics
+
+---
+
+## 🧱 5. [Makemore-04 – Leaky Abstractions in Deep Learning](./makemore04_colab.ipynb)
+
+A philosophical and practical reminder: abstractions like `.backward()` can leak.
+
+**Key ideas:**
+- Why understanding backpropagation still matters
+- Real-world issues: shape bugs, silent gradient issues, misuse of `.detach()`
+- Encourage a deeper understanding of what the model is really doing
+
+---
+
+## 🌊 6. [Makemore-05 – WaveNet-Inspired Architecture](./makemore05_colab.ipynb)
+
+Build a deeper model with a WaveNet-style, hierarchical architecture.
+
+**Topics covered:**
+- Refactoring with `torch.nn.Module`
+- Expanding `block_size` for longer context
+- BatchNorm troubleshooting
+- Model scaling and experimental harnesses
+- Preparation for dilated causal convolutions
+
+---
+
+## 🧠 7. [GPT – A Minimal Transformer from Scratch](./gpt_colab.ipynb)
+
+Train a Transformer (nanoGPT-style) on Shakespeare from scratch.
+
+**What you're building:**
+- A minimal GPT: ~300 lines of code
+- Transformer model (self-attention, feedforward, layernorm, etc.)
+- Trains on raw character-level data
+- Produces Shakespeare-like text
+- Framework extensible to larger datasets or pretrained weights
+
+---
+
+## 📚 Technologies Used
+
+- Python (3.8+)
+- PyTorch
+- Jupyter / Google Colab
+- Matplotlib (for visualizations)
+- Numpy
+
+---
+
+## 🧭 Learning Path Overview
+
+1. **Backprop & Autodiff** → `micrograd`
+2. **Simple Models** → `bigram`, `neural bigram`
+3. **Scaling up** → `MLP`, `BatchNorm`, `WaveNet`
+4. **Modern Deep Learning** → `Transformer`, `GPT`
+
+Each notebook builds on the previous, blending intuition, math, and clean PyTorch code. Perfect for learners who want to **understand, not just run** deep learning models.
+
+---
+
+## ✅ How to Use
+
+Open each notebook in [Google Colab](https://colab.research.google.com/), run the cells step-by-step, and explore the outputs. All notebooks are self-contained and progressively increase in complexity.
+
+---
+
+## Credits
+
+Tutorial series based on Andrej Karpathy's [Zero to Hero](https://karpathy.ai/) series. Reimplemented, adapted, and extended in Colab format for clarity and experimentation.
+
 
 ## Contact
-
-Feel free to reach out – I’m open to collaboration and looking for opportunities in:
-- NLP / AI in education
-- ML engineering
-- Applied research
 
 📧 henningkb@outlook.com
 
