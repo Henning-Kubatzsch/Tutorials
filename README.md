@@ -18,7 +18,7 @@ A ground-up implementation of backpropagation using a custom `Value` class.
 
 ---
 
-## 🔤 2. [Makemore-01 – Bigram Language Model](./makemore01_colab.ipynb)
+## 🔤 2. [Makemore-01 – Bigram Language Model](./Makemore/01_MakemoreShort.ipynb)
 
 Construct a simple bigram character-level model using both counting and neural methods.
 
